@@ -138,7 +138,7 @@ AI.Blockly.Msg.fil.switch_language_to_fil = {
     Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'Kapag ang unang balyu ay tama, saka gumawa ng unang block ng mga pahayag.\n' +
         'Sa ibang punto, Kapag ang ikalawang balyu ay tama, gawin ang ikalawang block ng mga pahayag.\n' +
         'Kapag wala sa mga balyu ay tama, gawin ang huling block ng mga pahayag.';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'if';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'kung';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'else';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'then';
@@ -184,9 +184,9 @@ AI.Blockly.Msg.fil.switch_language_to_fil = {
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'para sa mga numerong may pagitan';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section for each numeric '
-        + 'value in the range from start to end, stepping the value each time.  Use the given '
-        + 'variable name to refer to the current value.';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'I-runs ang mga blocks sa \'do\' seksyon ng bawat numero '
+        + 'ang balyu na nagsasaklaw mula sa simula hanggang sa huli, pagpa-step ng balyu bawat oras.  Gamitin ang nakasaad na '
+        + 'pangalan ng baryabol para makareper sa kasalukuyang balyu.';
 
     Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#foreach';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
@@ -196,8 +196,8 @@ AI.Blockly.Msg.fil.switch_language_to_fil = {
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
     Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Runs the blocks in the \'do\'  section for each item in '
-        + 'the list.  Use the given variable name to refer to the current list item.';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'I-run ang mga block sa \'do\' na seksyon para sa bawat aytem sa '
+        + 'listahan.  Gamitin ang nakalaang pangalan ng baryabol para maireper sa kasalukuyang listahan ng aytem.';
 
     Blockly.Msg.LANG_CONTROLS_GET_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#get';
 
@@ -205,21 +205,21 @@ AI.Blockly.Msg.fil.switch_language_to_fil = {
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_HELPURL = 'http://en.wikipedia.org/wiki/Control_flow';
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'of loop';
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'break out';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continue with next iteration';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Break out of the containing loop.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Skip the rest of this loop, and\n' +
-        'continue with the next iteration.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Warning:\n' +
-        'This block may only\n' +
-        'be used within a loop.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'magpatuloy sa sumusunod na ayterasyon';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Ang Break out na naglalaman ng loop.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Laktawan ang ibang loop dito, at\n' +
+        'magpatuloy sa sumusunod na ayterasyon.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Babala:\n' +
+        'Ang block na ito ay maaari lamang\n' +
+        'magamit sa loob ng loop.';
 
     Blockly.Msg.LANG_CONTROLS_WHILE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#while';;
     Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'while';
     Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = 'test';
     Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'do';
     Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'I-run ang mga blocks sa \'do\' seksyon habang ang pagsusuri ay '
+        + 'tama.';
 
     Blockly.Msg.LANG_CONTROLS_CHOOSE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#choose';
     Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = 'if'
