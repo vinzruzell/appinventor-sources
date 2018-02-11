@@ -7,23 +7,23 @@
  * Copyright © 2012 Google Inc.
  * Copyright © 2012-2017 Massachusetts Institute of Technology
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
+ * Ang lisensya ay saklaw ng Apache License, Version 2.0 (the "License");
+ * hindi ka maaaring gumamit ng file na ito maliban lang kung isinasaad sa Lisensya.
+ * Maaari kang kumuha ng kopya ng Lisenysa sa
  *
  *   http://www.apache.org/licenses/LICENSE-2.0
  *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Maliban kung kanakailangan sa natutukoy na batas o di kaya napagkasundoan sa pagsulat, ang software ay
+ * naipamahai gamit ang Lisensya ay naibahagi sa "AS IS" na BASIHAN,
+ * WALANG WARANTIYA O KONDISYON SA ANU MAN, alinman sa ipinahayag o ipinahiwatig.
+ * Tingnan ang Lisensya para sa  partikular na lingwahi na namamahala ng pagpahintulot at
+ * ang mga limitasyon nanakasaad sa Lisensya.
  */
 
 /**
  * @fileoverview Traditional Filipino strings.
  */
-'use strict';
+'gumamit ng strict';
 
 goog.provide('AI.Blockly.Msg.fil');
 
