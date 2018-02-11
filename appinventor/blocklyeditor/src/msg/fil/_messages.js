@@ -14,154 +14,154 @@
  *   http://www.apache.org/licenses/LICENSE-2.0
  *
  * Maliban kung kanakailangan sa natutukoy na batas o di kaya napagkasundoan sa pagsulat, ang software ay
- * naipamahai gamit ang Lisensya ay naibahagi sa "AS IS" na BASIHAN,
+ * naipamahagi gamit ang Lisensya ay naibahagi sa "AS IS" na BASIHAN,
  * WALANG WARANTIYA O KONDISYON SA ANU MAN, alinman sa ipinahayag o ipinahiwatig.
  * Tingnan ang Lisensya para sa  partikular na lingwahi na namamahala ng pagpahintulot at
  * ang mga limitasyon nanakasaad sa Lisensya.
  */
 
 /**
- * @fileoverview Traditional Filipino strings.
+ * @fileoverview Ang Tradisyonal na Filipino strings.
  */
 'gumamit ng strict';
 
 goog.provide('AI.Blockly.Msg.fil');
 
 /**
- * Due to the frequency of long strings, the 80-column wrap rule need not apply
- * to message files.
+ * Dahil sa prikwensiya ng mataas na strings, ang 80-kolum na palatuntunan sa pag-wrap ay hindi kailangan e-aplay
+ * sa mga mensahi ng mga file.
  */
 
 AI.Blockly.Msg.fil.switch_language_to_fil = {
-  // Switch language to Filipino.
+  // Maglipat sa lingwahing Filipino.
   category: '',
   helpUrl: '',
   init: function() {
-// Context menus.
-    Blockly.Msg.UNDO = 'Undo';
-    Blockly.Msg.REDO = 'Redo';
-    Blockly.Msg.CLEAN_UP = 'Clean up Blocks';
-    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
-    Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
-    Blockly.Msg.ADD_COMMENT = 'Add Comment';
-    Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
-    Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
-    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
-    Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
-    Blockly.Msg.CONFIRM_DELETE = 'Confirm deletion';
-    Blockly.Msg.DELETE_ALL_BLOCKS = "Delete all %1 blocks?";
-    Blockly.Msg.DELETE_BLOCK = 'Delete Block';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
-    Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
-    Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
-    Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
-    Blockly.Msg.HELP = 'Help';
-    Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
-    Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
-    Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
-    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
-    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
-    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
-    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Add to Backpack';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Copy All Blocks to Backpack';
-    Blockly.Msg.BACKPACK_GET = 'Paste All Blocks from Backpack';
-    Blockly.Msg.BACKPACK_EMPTY = 'Empty the Backpack';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Are you sure you want to empty the backpack?';
-    Blockly.Msg.BACKPACK_DOC_TITLE = "Backpack Information";
-    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
-   " and paste them into another project or screen. " +
-   " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
-   " drag-and-drop blocks into the workspace." +
-   "</p><p>If you leave MIT App Inventor with blocks left in your backpack, " +
-   " they will be there the next time you login." +
-   "</p><p>For further documentation and a 'how to' video, see:" +
+// Ang mga konteksto sa mga pagpipilian.
+    Blockly.Msg.UNDO = 'Ibalik sa dati';
+    Blockly.Msg.REDO = 'Gawing Muli';
+    Blockly.Msg.CLEAN_UP = 'Linisin ang mga Blocks';
+    Blockly.Msg.DUPLICATE_BLOCK = 'Magsagawa ng kopya';
+    Blockly.Msg.REMOVE_COMMENT = 'Tanggalin ang mga komento';
+    Blockly.Msg.ADD_COMMENT = 'Magdagdag ng mga komento';
+    Blockly.Msg.EXTERNAL_INPUTS = 'Ang mga pinasok mula sa eksternal';
+    Blockly.Msg.INLINE_INPUTS = 'Ang mga pinasok na nakasaad sa Linya';
+    Blockly.Msg.HORIZONTAL_PARAMETERS = 'Ayusin ang mga Parametro ng Pahalang';
+    Blockly.Msg.VERTICAL_PARAMETERS = 'Ayusin ang mga Parametro ng Patayo';
+    Blockly.Msg.CONFIRM_DELETE = 'I-komperma ang pag-delete';
+    Blockly.Msg.DELETE_ALL_BLOCKS = "I-delete ang lahat ng %1 ng mga block?";
+    Blockly.Msg.DELETE_BLOCK = 'I-delete ang Block';
+    Blockly.Msg.DELETE_X_BLOCKS = 'I-delete ang %1 ng mga Block';
+    Blockly.Msg.COLLAPSE_BLOCK = 'I-collapse ang Block';
+    Blockly.Msg.EXPAND_BLOCK = 'Palawakin ang Block';
+    Blockly.Msg.DISABLE_BLOCK = 'Wag Paganahin ang Block';
+    Blockly.Msg.ENABLE_BLOCK = 'Paganahin ang Block';
+    Blockly.Msg.HELP = 'Maghatid ng tulong';
+    Blockly.Msg.EXPORT_IMAGE = 'I-download ang mga Blocks bilang isang Imahi';
+    Blockly.Msg.COLLAPSE_ALL = 'I-collapse ang mga Blocks';
+    Blockly.Msg.EXPAND_ALL = 'Palawakin ang mga Blocks';
+    Blockly.Msg.ARRANGE_H = 'Ayusin ang mga Blocks ng Pahalang';
+    Blockly.Msg.ARRANGE_V = 'Ayusin ang mga Blocks ng Patayo';
+    Blockly.Msg.ARRANGE_S = 'Ayusin ang mga Blocks ng naka-Dayagonal';
+    Blockly.Msg.SORT_W = 'Isaayus ang mga Blocks ng naaayun sa Lapad';
+    Blockly.Msg.SORT_H = 'Isaayus ang mga Blocks ng naaayun sa Taas';
+    Blockly.Msg.SORT_C = 'Isaayus ang mga Blocks ng naaayun sa Kategorya';
+    Blockly.Msg.COPY_TO_BACKPACK = 'Idagdag sa Bakpak';
+    Blockly.Msg.COPY_ALLBLOCKS = 'Kopyahin ang mga Blocks patungo sa Bakpak';
+    Blockly.Msg.BACKPACK_GET = 'I-paste ang lahat ng mga Blocks mula sa Bakpak';
+    Blockly.Msg.BACKPACK_EMPTY = 'Bakantehin ang Bakpak';
+    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sigurado kaba na gusto mong ibakante ang bakpak?';
+    Blockly.Msg.BACKPACK_DOC_TITLE = "Ang Impormasyon ng Bakpak";
+    Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Ipakita ang Dokumentasyon ng Bakpak";
+    Blockly.Msg.BACKPACK_DOCUMENTATION = "Ang Bakpak ay may katangian na pagkopya o pag-paste. Ito ay nagpapahintulot sa iyo na kopyahin ang mga blocks mula sa isang proyekto o sckeen " +
+   " at i-paste patungo sa ibang proyekto o skreen. " +
+   " Sa pagkopya nito, maaari kang mong i-drag-at-i-drop ang mga blocks patungo sa Bakpak. Para i-paste, i-klik ang aykon ng Bakpak at " +
+   " i-drag-at-i-drop ang mga blocks patungo sa espasyo kung saan pwedeng magtrabaho." +
+   "</p><p>Kapag umaalis ka sa MIT App Inventor na may natitirang mga blocks sa iyong bakpak, " +
+   " ito ay mananatili hanggang sa iyong susunod na pag-login." +
+   "</p><p>Para sa karagdagang dokumentasyon at ang 'how to' vidyo, ay tingnan lang ang:" +
    '</p><p><a href="http://ai2.appinventor.mit.edu/reference/other/backpack.html" target="_blank">http://ai2.appinventor.mit.edu/reference/other/backpack.html</a>';
-    Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
-    Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
-    Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';
-    Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
+    Blockly.Msg.ENABLE_GRID = 'Paganahin ang Workspace Grid';
+    Blockly.Msg.DISABLE_GRID = 'Wag paganahin ang Workspace Grid';
+    Blockly.Msg.ENABLE_SNAPPING = 'Paganahin ang Snap sa Grid';
+    Blockly.Msg.DISABLE_SNAPPING = 'Wag paganahin ang Snap sa Grid';
 
-// Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
-    Blockly.MSG_NEW_VARIABLE = 'New variable...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
-    Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
-    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
+// Ang mga natitirang mga baryabol.
+    Blockly.MSG_CHANGE_VALUE_TITLE = 'Baguhin ang balyu:';
+    Blockly.MSG_NEW_VARIABLE = 'Ang bagong baryabol...';
+    Blockly.MSG_NEW_VARIABLE_TITLE = 'Ang bagong pangalan ng baryabol:';
+    Blockly.MSG_RENAME_VARIABLE = 'Baguhin ang pangalan ng baryabol...';
+    Blockly.MSG_RENAME_VARIABLE_TITLE = 'Baguhin ang pangalan ng lahat na "%1" na mga baryabol sa:';
 
-// Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
+// Ang toolbox.
+    Blockly.MSG_VARIABLE_CATEGORY = 'Ang mga Baryabol';
+    Blockly.MSG_PROCEDURE_CATEGORY = 'Mga Patakaran';
 
 // Warnings/Errors
-    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
-    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
-    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
-    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
+    Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "Ang block na ito ay hindi dapat nasa depinisyon";
+    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Pumili ng balidong aytem sa drop down.";
+    Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "Ito ay isang kopya ng tagapagdala ng pangyayari ang komponent na ito.";
+    Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Hindi umiiral ang komponent na ito";
+    Blockly.ERROR_BLOCK_IS_NOT_DEFINED = "Ang block na ito ay hindi tinutukoy.I-delete ang block na ito!";
 
-// Colour Blocks.
+// Ang mga kulay ng Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/colors#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
-    Blockly.Msg.LANG_COLOUR_BLACK = 'black';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
-    Blockly.Msg.LANG_COLOUR_RED = 'red';
-    Blockly.Msg.LANG_COLOUR_PINK = 'pink';
-    Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
-    Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
-    Blockly.Msg.LANG_COLOUR_GREEN = 'green';
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'I-klik ang parisukat para makapili ng kulay.';
+    Blockly.Msg.LANG_COLOUR_BLACK = 'itim';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'puti';
+    Blockly.Msg.LANG_COLOUR_RED = 'pula';
+    Blockly.Msg.LANG_COLOUR_PINK = 'rosas';
+    Blockly.Msg.LANG_COLOUR_ORANGE = 'dalandan';
+    Blockly.Msg.LANG_COLOUR_YELLOW = 'dilaw';
+    Blockly.Msg.LANG_COLOUR_GREEN = 'berde';
     Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
-    Blockly.Msg.LANG_COLOUR_BLUE = 'blue';
+    Blockly.Msg.LANG_COLOUR_BLUE = 'asul';
     Blockly.Msg.LANG_COLOUR_MAGENTA = 'magenta';
     Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'light gray';
     Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'dark gray';
     Blockly.Msg.LANG_COLOUR_GRAY = 'gray';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split color';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'i-split ang kulay';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/colors#split';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make color';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "Ang listahan ng apat na mga elemento, ang bawat isa ay umaabot mula 0 to 255, nagrepresenta sa kulay pula, berde, asul at alpang mga komponent.";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'gumawa ng kulay';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/colors#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "Ang mga kulay na nagsasaad sa pula, berde, asul, at opsyonal na mga komponents ng alpa";
 
-// Control Blocks
-    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Control';
+// Ang kontrol ng mga Blocks
+    Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Ang kontrol';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#if';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
-        'Otherwise, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.\n' +
-        'If none of the values are true, do the last block of statements.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'Kung ang balyu ay tama, saka gumawa ng iilang mga pahayag.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'Kung ang balyu ay tama, saka gawin ang unang block ng mga pahayag.\n' +
+        'Sa ibang punto, gumawa ng ikalawang block ng mga pahayag.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'Kapag ang unang balyu ay tama, saka gumawa ng unang block ng mga pahayag.\n' +
+        'Sa ibang punto, kapag ang ikalawang balyu ay tama, gumawa ng ikalawang block ng mga pahayag.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'Kapag ang unang balyu ay tama, saka gumawa ng unang block ng mga pahayag.\n' +
+        'Sa ibang punto, Kapag ang ikalawang balyu ay tama, gawin ang ikalawang block ng mga pahayag.\n' +
+        'Kapag wala sa mga balyu ay tama, gawin ang huling block ng mga pahayag.';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'if';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'else';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'then';
 
     Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
-        'to reconfigure this if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Magdagdag, mag-alis, o muling magsaayos ng mga sekyon\n' +
+        'para muling i-configure ang block na ito.';
 
     Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Magdagdag ng kondisyon sa if na block.';
 
     Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Magdagdag ng pinale na, i-catch-all ang kondisyon na if block.';
 
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#while';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'muling gawin';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'Habang ang balyu ay tama, saka gumawa ng iilang mga pahayag.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'Habang ang balyu ay mali, saka gumawa ng iilang mga pahayag.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'I-runs ang mga blocks sa \'do\' na seksyon habang ang pagsusuri ay '
+        + 'tama.';
 
     Blockly.Msg.LANG_CONTROLS_FOR_HELPURL = '';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
@@ -170,9 +170,9 @@ AI.Blockly.Msg.fil.switch_language_to_fil = {
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'to';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'do';
 
-    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
-        'For each count, set the current count number to\n' +
-        'variable "%1", and then do some statements.';
+    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Ikwenta mula sa unang numero hanggang sa hulimg numero.\n' +
+        'Sa bawat kwenta, itakda ang kasalukuyang kwenta ng numero sa\n' +
+        'baryabol na "%1", at gumawa ng iilang mga pahayag.';
 
     Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#forrange';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
@@ -181,7 +181,7 @@ AI.Blockly.Msg.fil.switch_language_to_fil = {
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'para sa mga numerong may pagitan';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
     Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section for each numeric '
